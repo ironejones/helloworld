@@ -1,3 +1,3 @@
 puts "Please enter your name."
-name = gets
+name = gets.chop
 puts "Hi, #{name} ! I'm Ruby!"
